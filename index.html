@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vivace - Nairobi's premier cosmetics & laser clinic offering world-class beauty and wellness treatments including weight loss, body sculpting, and anti-aging.">
+    <title>Vivace - Premier Cosmetics & Laser Clinic | Nairobi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Vivace</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#treatments">Treatments</a></li>
+            <li><a href="#wellness">Women Wellness</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+            </button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+            <a href="#contact" class="btn-primary">Book Now</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <!-- Replace 'your-image-url.jpg' with your actual image URL -->
+        <img src="clinc.jpg" alt="Vivace Clinic" class="hero-bg-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Transform Your Beauty Journey</h1>
+            <p>World-class cosmetic and laser treatments in the heart of Nairobi</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Book Consultation</a>
+                <a href="#treatments" class="btn-secondary">View Treatments</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                
+                <img src="treatments.jpg" alt="Example" style="margin-left: 20px;margin-top: 20px; width: 92.6%; height: 91%;border-radius: 12px;">
+            </div>
+            <div class="about-text">
+                <h2>About Vivace Clinic</h2>
+                <p>At Vivace, we combine medical expertise with cutting-edge technology to deliver exceptional results. Our state-of-the-art facility offers the latest in cosmetic innovation, backed by years of experience and a commitment to excellence.</p>
+                <p>We believe that everyone deserves to feel confident and beautiful in their own skin. Our team of experienced professionals is dedicated to providing personalized care and outstanding results.</p>
+                <ul class="features-list">
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>FDA-approved technologies</span>
+                    </li>
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>Experienced medical professionals</span>
+                    </li>
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>Personalized treatment plans</span>
+                    </li>
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>Luxurious, comfortable environment</span>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn-primary">Schedule Your Visit</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="treatments" class="services">
+        <div class="section-title">
+            <h2>Our Premium Services</h2>
+        </div>
+        <p class="section-subtitle">Experience cutting-edge treatments designed for the modern individual</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                    </svg>
+                </div>
+                <h3>Weight Loss Programs</h3>
+                <p>Advanced non-invasive treatments for sustainable weight management. Our comprehensive programs combine cutting-edge technology with personalized nutrition guidance.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                </div>
+                <h3>Body Sculpting</h3>
+                <p>Cutting-edge technology to shape and contour your ideal physique. Non-surgical solutions for targeted fat reduction and muscle toning.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/>
+                        <circle cx="12" cy="12" r="6"/>
+                        <circle cx="12" cy="12" r="2"/>
+                    </svg>
+                </div>
+                <h3>Anti-Aging Treatments</h3>
+                <p>Rejuvenate your skin with our premium aesthetic treatments. From dermal fillers to laser therapy, achieve youthful, radiant skin.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <h3>Laser Hair Removal</h3>
+                <p>Safe, effective, and permanent hair reduction using advanced laser technology. Say goodbye to unwanted hair forever.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                    </svg>
+                </div>
+                <h3>Skin Rejuvenation</h3>
+                <p>Revitalize your complexion with advanced facials, chemical peels, and microneedling treatments for glowing, healthy skin.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+                        <line x1="7" y1="7" x2="7.01" y2="7"/>
+                    </svg>
+                </div>
+                <h3>Cosmetic Injectables</h3>
+                <p>Expert administration of Botox and dermal fillers for natural-looking enhancement and wrinkle reduction.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="wellness" class="wellness">
+        <div class="wellness-content">
+            <div class="wellness-text">
+                <h2>Women's Wellness Program</h2>
+                <p>Dedicated treatments designed specifically for women's health and beauty needs. Experience holistic care in our serene wellness sanctuary.</p>
+                <p>Our comprehensive women's wellness program addresses hormonal balance, skin health, body confidence, and overall wellbeing. We understand the unique challenges women face at every stage of life.</p>
+                <ul class="features-list">
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>Hormone balance treatments</span>
+                    </li>
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>Pregnancy & postpartum care</span>
+                    </li>
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>Intimate wellness solutions</span>
+                    </li>
+                    <li>
+                        <div class="checkmark">✓</div>
+                        <span>Menopause management</span>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn-primary">Discover Wellness</a>
+            </div>
+            <div class="wellness-image">
+                <img src="wellness.jpg" alt="Example" style="margin-left: 20px;margin-top: 20px; width: 92.6%; height: 91%;border-radius: 12px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="section-title">
+            <h2>Latest from Our Blog</h2>
+        </div>
+        <p class="section-subtitle">Expert insights on beauty, wellness, and cosmetic treatments</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                </div>
+                <h3>Weight Loss Success Stories</h3>
+                <p>Read about real transformations and sustainable weight management journeys from our clients. Discover proven strategies that work.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                </div>
+                <h3>Anti-Aging Secrets</h3>
+                <p>Discover professional skincare routines and treatments to maintain youthful, radiant skin. Expert tips from our dermatologists.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                </div>
+                <h3>Women's Wellness Guide</h3>
+                <p>Comprehensive guides on holistic health and beauty care designed specifically for women at every stage of life.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="#contact" class="btn-primary">View All Articles</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat">
+                <h3>10+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat">
+                <h3>5000+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat">
+                <h3>25+</h3>
+                <p>Premium Treatments</p>
+            </div>
+            <div class="stat">
+                <h3>100%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="cta">
+        <div class="cta-icon">
+            <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+        </div>
+        <h2>Ready to Begin Your Transformation?</h2>
+        <p>Book your consultation today and take the first step towards a more confident you. Our expert team is ready to create your personalized treatment plan.</p>
+        <div class="cta-buttons">
+            <a href="https://wa.me/254700000000" class="btn-primary">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Book on WhatsApp
+            </a>
+            <a href="tel:+254700000000" class="btn-secondary" style="color: var(--text-primary); border-color: var(--text-primary);">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                Call Us Now
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-brand">
+                <h3 class="logo">Vivace</h3>
+                <p>Nairobi's premier cosmetics & laser clinic offering world-class beauty and wellness treatments. Transform your beauty journey with us.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/vivaceclinic" title="Instagram" target="_blank" rel="noopener">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="17.5" cy="6.5" r="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com/vivaceclinic" title="Facebook" target="_blank" rel="noopener">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@vivaceclinic" title="YouTube" target="_blank" rel="noopener">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://tiktok.com/@vivaceclinic" title="TikTok" target="_blank" rel="noopener">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" fill="none" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#treatments">Our Treatments</a></li>
+                    <li><a href="#wellness">Women Wellness</a></li>
+                    <li><a href="#blog">Blog & Resources</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Popular Services</h3>
+                <ul>
+                    <li><a href="#treatments">Weight Loss Programs</a></li>
+                    <li><a href="#treatments">Body Sculpting</a></li>
+                    <li><a href="#treatments">Anti-Aging Treatments</a></li>
+                    <li><a href="#treatments">Laser Hair Removal</a></li>
+                    <li><a href="#treatments">Skin Rejuvenation</a></li>
+                    <li><a href="#treatments">Cosmetic Injectables</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Get In Touch</h3>
+                <div class="contact-info">
+                    <span class="contact-icon">📍</span>
+                    <span>Parklands, Nairobi, Kenya</span>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-icon">📞</span>
+                    <a href="tel:+254700000000" style="color: white;">+254 700 000 000</a>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-icon">✉️</span>
+                    <a href="mailto:info@vivace.co.ke" style="color: white;">info@vivace.co.ke</a>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-icon">🕒</span>
+                    <span>Mon-Sat: 9AM - 6PM</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2025 Vivace Cosmetics & Laser Clinic. All rights reserved. | <a href="#" style="color: white;">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        const sunIcon = `<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>`;
+        const moonIcon = `<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>`;
+
+        // Check for saved theme preference or default to 'light' mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', currentTheme);
+        themeToggle.innerHTML = currentTheme === 'dark' ? sunIcon : moonIcon;
+
+        themeToggle.addEventListener('click', () => {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            themeToggle.innerHTML = newTheme === 'dark' ? sunIcon : moonIcon;
+        });
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation link on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Add scroll animation to elements
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe service cards and sections for animation
+        document.querySelectorAll('.service-card, .about-content, .wellness-content').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
