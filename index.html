@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <div class="logo">Vivace</div>
+        <div class="logo">Alura</div>
         <ul class="nav-links" id="navLinks">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About Us</a></li>
@@ -44,7 +44,7 @@
     </nav>
 
     <section id="home" class="hero">
-        <!-- Replace 'your-image-url.jpg' with your actual image URL -->
+        
         <img src="clinc.jpg" alt="Vivace Clinic" class="hero-bg-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -64,8 +64,8 @@
                 <img src="treatments.jpg" alt="Example" style="margin-left: 20px;margin-top: 20px; width: 92.6%; height: 91%;border-radius: 12px;">
             </div>
             <div class="about-text">
-                <h2>About Vivace Clinic</h2>
-                <p>At Vivace, we combine medical expertise with cutting-edge technology to deliver exceptional results. Our state-of-the-art facility offers the latest in cosmetic innovation, backed by years of experience and a commitment to excellence.</p>
+                <h2>About Alura Clinic</h2>
+                <p>At Alura, we combine medical expertise with cutting-edge technology to deliver exceptional results. Our state-of-the-art facility offers the latest in cosmetic innovation, backed by years of experience and a commitment to excellence.</p>
                 <p>We believe that everyone deserves to feel confident and beautiful in their own skin. Our team of experienced professionals is dedicated to providing personalized care and outstanding results.</p>
                 <ul class="features-list">
                     <li>
@@ -377,7 +377,7 @@
         </div>
 
         <div class="copyright">
-            <p>&copy; 2025 Vivace Cosmetics & Laser Clinic. All rights reserved. | <a href="#" style="color: white;">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
+            <p>&copy; 2025 Alura Cosmetics & Laser Clinic. All rights reserved. | <a href="#" style="color: white;">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
         </div>
     </footer>
 
@@ -400,7 +400,7 @@
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
         </svg>`;
 
-        // Check for saved theme preference or default to 'light' mode
+        
         const currentTheme = localStorage.getItem('theme') || 'light';
         html.setAttribute('data-theme', currentTheme);
         themeToggle.innerHTML = currentTheme === 'dark' ? sunIcon : moonIcon;
@@ -414,7 +414,7 @@
             themeToggle.innerHTML = newTheme === 'dark' ? sunIcon : moonIcon;
         });
 
-        // Mobile menu toggle
+        
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const navLinks = document.getElementById('navLinks');
 
@@ -422,14 +422,14 @@
             navLinks.classList.toggle('active');
         });
 
-        // Close mobile menu when clicking on a link
+        
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
             });
         });
 
-        // Smooth scrolling for navigation links
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -443,7 +443,7 @@
             });
         });
 
-        // Active navigation link on scroll
+
         window.addEventListener('scroll', () => {
             const sections = document.querySelectorAll('section[id]');
             const navLinks = document.querySelectorAll('.nav-links a');
@@ -465,7 +465,7 @@
             });
         });
 
-        // Add scroll animation to elements
+        
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -100px 0px'
@@ -480,7 +480,6 @@
             });
         }, observerOptions);
 
-        // Observe service cards and sections for animation
         document.querySelectorAll('.service-card, .about-content, .wellness-content').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(20px)';
